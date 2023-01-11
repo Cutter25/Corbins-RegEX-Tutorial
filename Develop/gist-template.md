@@ -29,30 +29,29 @@ First of all, every RegEx starts with /^ and ends with $/. Now, in order to have
 
 ## Regex Components
 
-
+The components of the RegEx shown above consist of Anchors, Bracket Expressions, Grouping Constructs, Groups and Backreferences, and the Or Operator.
 
 ### Anchors
 
+The HTML matching RegEx example above starts with the /^ anchor and ends with the $/ anchor. 
+
 ### Quantifiers
+
+The + symbol is a quantifier that allows us to match any number of times as long as the character is lowercase and is a to z.
 
 ### OR Operator
 
-### Character Classes
-
-### Flags
+The Or operator is present towards the end of our RegEx. 
 
 ### Grouping and Capturing
 
+There are a few groupings in our HTML tag regex. The first one is [a-z] which matches any lowercase letters. Next, we have [^<]+ which will allow for any classes or id's. Then, we have a non-capturing group which is 
+(?:>(.*). This non-capturing group only allows for a > character but will not need to be remembered later.
+
 ### Bracket Expressions
 
-### Greedy and Lazy Match
-
-### Boundaries
-
-### Back-references
-
-### Look-ahead and Look-behind
+Our examples of bracket expressions would be what is in our groupings above.
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+My name is Corbin. I am a student at the Georgia Tech Coding Bootcamp. I love to code and I plan on building websites for others very soon! Here is a link to my GitHub profile https://github.com/Cutter25
